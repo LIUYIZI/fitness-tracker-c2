@@ -165,7 +165,11 @@
       "type": "",
       "dur": ""
     },
-    "stretch": {},
+    "stretch": {
+      "ps_quad": true,
+      "ps_ham": true,
+      "ps_chest": true
+    },
     "scales": {},
     "notes": ""
   },
