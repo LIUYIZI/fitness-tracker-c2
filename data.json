@@ -168,7 +168,8 @@
     "stretch": {
       "ps_quad": true,
       "ps_ham": true,
-      "ps_chest": true
+      "ps_chest": true,
+      "ps_pecminor": true
     },
     "scales": {},
     "notes": ""
