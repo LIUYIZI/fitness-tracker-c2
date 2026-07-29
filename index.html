@@ -28,6 +28,7 @@ body {
   white-space: nowrap; transition: all 0.2s;
 }
 .session-btn.active { background: #2d7d46; color: #fff; border-color: #2d7d46; }
+.session-btn.active.done { color: #fff; }
 .session-btn.done { border-color: #2d7d46; color: #2d7d46; }
 .session-btn.done::after { content: ' ✅'; font-size: 11px; }
 .save-indicator {
@@ -71,6 +72,9 @@ body {
 .warmup-row .warmup-how {
   font-size: 13px; color: #888; padding-left: 28px; width: 100%;
   line-height: 1.4;
+}
+.warmup-row input[type="checkbox"], .stretch-item input[type="checkbox"] {
+  width: 20px; height: 20px; accent-color: #2d7d46; flex-shrink: 0; margin: 0;
 }
 .card {
   background: #fff; margin: 10px 14px; border-radius: 10px;
