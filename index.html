@@ -60,11 +60,18 @@ body {
 .warmup-grid { display: flex; flex-direction: column; gap: 6px; }
 .warmup-row {
   display: flex; align-items: center; gap: 8px; padding: 6px 0;
-  border-bottom: 1px solid #f0f2f5; font-size: 14px;
+  border-bottom: 1px solid #f0f2f5; font-size: 14px; flex-wrap: wrap;
 }
 .warmup-row:last-child { border-bottom: none; }
-.warmup-row .warmup-num { font-weight: 700; color: #2d7d46; min-width: 16px; }
-.warmup-row .warmup-how { font-size: 13px; color: #888; flex-shrink: 0; }
+.warmup-row .warmup-line1 {
+  display: flex; align-items: center; gap: 6px; flex: 1 1 100%; min-width: 0;
+}
+.warmup-row .warmup-num { font-weight: 700; color: #2d7d46; min-width: 14px; flex-shrink: 0; }
+.warmup-row .warmup-name { font-weight: 600; white-space: nowrap; }
+.warmup-row .warmup-how {
+  font-size: 13px; color: #888; padding-left: 28px; width: 100%;
+  line-height: 1.4;
+}
 .card {
   background: #fff; margin: 10px 14px; border-radius: 10px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.06); overflow: hidden;
@@ -458,10 +465,12 @@ function render() {
   const warmupHtml = WARMUP.map((w, i) => {
     const id = `wu_${currentSession}_${w.id}`;
     return `<div class="warmup-row">
-      <span class="warmup-num">${i+1}</span>
-      <input type="checkbox" id="${id}" ${warmup[w.id]?'checked':''} data-wu="${w.id}">
-      <span style="font-weight:600;">${w.n}</span>
-      <span class="warmup-how">${w.how}</span>
+      <div class="warmup-line1">
+        <span class="warmup-num">${i+1}</span>
+        <input type="checkbox" id="${id}" ${warmup[w.id]?'checked':''} data-wu="${w.id}">
+        <span class="warmup-name">${w.n}</span>
+      </div>
+      <div class="warmup-how">${w.how}</div>
     </div>`;
   }).join('');
 
