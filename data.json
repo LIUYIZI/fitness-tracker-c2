@@ -1,49 +1,35 @@
 {
   "currentSession": 0,
   "s0": {
-    "pre": {
-      "身体无异样": true,
-      "done": true,
-      "饮水充足": true,
-      "练前吃了碳水+蛋白": true
-    },
-    "warmup": {
-      "w_ellip": false,
-      "w_tspine": true,
-      "w_catcow": true,
-      "w_chintuck": false,
-      "w_band": false,
-      "w_fp": true
-    },
+    "pre": {},
+    "warmup": {},
     "exs": {
       "facePull": {
         "order": 1,
         "sets": [
           {
             "w": "21",
-            "r": "15",
-            "rpe": 7
+            "r": "",
+            "rpe": ""
           },
           {
-            "w": "25",
-            "r": "12",
-            "rpe": 8
+            "w": "",
+            "r": "",
+            "rpe": ""
           },
           {
-            "w": "30",
-            "r": "12",
-            "rpe": 8
+            "w": "",
+            "r": "",
+            "rpe": ""
           }
         ],
-        "feel": [
-          "斜方代偿"
-        ]
+        "feel": []
       },
       "row": {
         "order": 2,
         "sets": [
           {
-            "w": "40",
+            "w": "",
             "r": "",
             "rpe": ""
           },
@@ -85,19 +71,19 @@
         "order": 4,
         "sets": [
           {
-            "w": "80",
-            "r": "12",
-            "rpe": 7
+            "w": "",
+            "r": "",
+            "rpe": ""
           },
           {
-            "w": "100",
-            "r": "15",
-            "rpe": 8
+            "w": "",
+            "r": "",
+            "rpe": ""
           },
           {
-            "w": "100",
-            "r": "15",
-            "rpe": 9
+            "w": "",
+            "r": "",
+            "rpe": ""
           }
         ],
         "feel": []
@@ -170,22 +156,9 @@
       "type": "",
       "dur": ""
     },
-    "stretch": {
-      "ps_quad": false,
-      "ps_ham": false,
-      "ps_chest": true,
-      "ps_pecminor": true,
-      "ps_levator": true,
-      "ps_uppertrap": true
-    },
-    "scales": {
-      "消耗感": "有点累",
-      "发力感": "明显",
-      "动作质量": "完美",
-      "满意度": "满意"
-    },
-    "notes": "测试",
-    "date": "2026-07-29"
+    "stretch": {},
+    "scales": {},
+    "notes": ""
   },
   "s1": {
     "pre": {},
