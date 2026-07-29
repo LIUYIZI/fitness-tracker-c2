@@ -174,7 +174,7 @@
       "ps_quad": false,
       "ps_ham": false,
       "ps_chest": true,
-      "ps_pecminor": true,
+      "ps_pecminor": false,
       "ps_levator": true,
       "ps_uppertrap": true
     },
