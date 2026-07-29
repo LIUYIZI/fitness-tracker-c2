@@ -8,7 +8,7 @@
       "练前吃了碳水+蛋白": true
     },
     "warmup": {
-      "w_ellip": true,
+      "w_ellip": false,
       "w_tspine": true,
       "w_catcow": true,
       "w_chintuck": false,
