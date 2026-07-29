@@ -2,7 +2,11 @@
   "currentSession": 0,
   "s0": {
     "pre": {},
-    "warmup": {},
+    "warmup": {
+      "w_fp": false,
+      "w_band": false,
+      "w_chintuck": false
+    },
     "exs": {
       "facePull": {
         "order": 1,
