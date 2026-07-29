@@ -1,7 +1,12 @@
 {
   "currentSession": 0,
   "s0": {
-    "pre": {},
+    "pre": {
+      "身体无异样": true,
+      "done": true,
+      "饮水充足": true,
+      "练前吃了碳水+蛋白": true
+    },
     "warmup": {
       "w_ellip": true,
       "w_tspine": true,
@@ -177,7 +182,8 @@
       "动作质量": "完美",
       "满意度": "满意"
     },
-    "notes": "测试"
+    "notes": "测试",
+    "date": "2026-07-29"
   },
   "s1": {
     "pre": {},
