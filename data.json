@@ -171,10 +171,12 @@
       "dur": ""
     },
     "stretch": {
-      "ps_quad": true,
-      "ps_ham": true,
+      "ps_quad": false,
+      "ps_ham": false,
       "ps_chest": true,
-      "ps_pecminor": true
+      "ps_pecminor": true,
+      "ps_levator": true,
+      "ps_uppertrap": true
     },
     "scales": {
       "消耗感": "有点累",
