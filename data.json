@@ -2,7 +2,14 @@
   "currentSession": 0,
   "s0": {
     "pre": {},
-    "warmup": {},
+    "warmup": {
+      "w_ellip": true,
+      "w_tspine": true,
+      "w_catcow": true,
+      "w_chintuck": true,
+      "w_band": true,
+      "w_fp": true
+    },
     "exs": {
       "facePull": {
         "order": 1,
